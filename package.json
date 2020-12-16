@@ -1,0 +1,30 @@
+{
+  "name": "referral-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "yarn --cwd client",
+    "client:install": "yarn client && yarn",
+    "client:start": "cd client && yarn start",
+    "client:test": "cd client && yarn test",
+    "server": "yarn --cwd server",
+    "server:install": "yarn server && yarn",
+    "server:db:migrate": "cd server && yarn db:migrate",
+    "server:start": "cd server && yarn start",
+    "server:test": "cd server && yarn test",
+    "bootstrap": "yarn client:install && yarn server:install",
+    "test": "yarn client:test --watchAll=false && yarn server:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liamandrew/referral.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liamandrew/referral/issues"
+  },
+  "homepage": "https://github.com/Liamandrew/referral#readme"
+}

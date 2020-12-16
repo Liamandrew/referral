@@ -11,11 +11,7 @@ export const createReferralRequestValidations = [
         .withMessage("Is required")
         .isString()
         .withMessage("Must be a string"),
-    body("email")
-        .notEmpty()
-        .withMessage("Is required")
-        .isEmail()
-        .withMessage("Must be a valid email address"),
+    body("email").notEmpty().withMessage("Is required"),
     body("phoneNumber")
         .notEmpty()
         .withMessage("Is required")

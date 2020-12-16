@@ -1,12 +1,10 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { createReferral } from "../../api/referral";
 import { Button } from "../../components/Button";
 import { Heading } from "../../components/Heading";
 import { SubHeading } from "../../components/SubHeading";
 import { TextField } from "../../components/TextField";
-import { Referral } from "../../types/referral";
 import style from "./ReferralForm.module.css";
 import { createReferralAction } from "../../state/referralSlice";
 

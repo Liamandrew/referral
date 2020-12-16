@@ -20,7 +20,7 @@
 >`psql postgres`
 
 *Create user & grant permissions*
->`postgres=# CREATE ROLE api_user WITH LOGIN PASSWORD 'password';`;
+>`postgres=# CREATE ROLE api_user WITH LOGIN PASSWORD 'password';`
 
 >`postgres=# ALTER ROLE api_user CREATEDB;`
 
@@ -32,3 +32,5 @@
 3. Create the database:
 
 >`postgres=> CREATE DATABASE referral_db;`
+
+That's the final step. You can now exit and continue with the startup guide.
