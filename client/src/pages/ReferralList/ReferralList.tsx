@@ -1,22 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { getAllReferrals } from "../../api/referral";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { ReferralTable } from "../../components/ReferralTable";
-import { Referral } from "../../types/referral";
+import {
+    getAllReferralsAction,
+    ReferralReducerState,
+} from "../../state/referralSlice";
 import style from "./ReferralList.module.css";
 
 const ReferralList: React.FC = () => {
-    const [referrals, setReferrals] = useState<Referral[]>([]);
-
-    const fetchReferrals = async () => {
-        try {
-            const { data } = await getAllReferrals();
-
-            setReferrals(data.referrals);
-        } catch (error) {}
-    };
+    const dispatch = useDispatch();
+    const referrals = useSelector(
+        (state: ReferralReducerState) => state.referrals
+    );
 
     useEffect(() => {
-        fetchReferrals();
+        dispatch(getAllReferralsAction());
     }, []);
 
     return (

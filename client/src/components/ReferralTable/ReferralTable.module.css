@@ -1,7 +1,7 @@
 .container {
     background-color: white;
     border-radius: 8px;
-    padding: 20px 30px;
+    padding: 20px 30px 80px 30px;
     box-sizing: border-box;
     max-width: 800px;
     margin: 0 auto;
@@ -24,4 +24,8 @@
 .actionBodyCell {
     composes: tableBodyCell;
     white-space: nowrap;
+}
+
+.emptyTableRow {
+    height: 55px;
 }

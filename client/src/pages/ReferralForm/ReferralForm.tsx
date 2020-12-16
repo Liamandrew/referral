@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useDispatch } from "react-redux";
 import { createReferral } from "../../api/referral";
 import { Button } from "../../components/Button";
 import { Heading } from "../../components/Heading";
@@ -7,11 +8,7 @@ import { SubHeading } from "../../components/SubHeading";
 import { TextField } from "../../components/TextField";
 import { Referral } from "../../types/referral";
 import style from "./ReferralForm.module.css";
-
-interface ReferralFormProps {
-    onSuccess: (referral: Referral) => void;
-    onError: () => void;
-}
+import { createReferralAction } from "../../state/referralSlice";
 
 interface FormData {
     givenName: string;
@@ -26,7 +23,8 @@ interface FormData {
     country: string;
 }
 
-const ReferralForm: React.FC<ReferralFormProps> = ({ onSuccess, onError }) => {
+const ReferralForm: React.FC = () => {
+    const dispatch = useDispatch();
     const { register, handleSubmit, errors, reset } = useForm<FormData>({
         mode: "all",
     });
@@ -37,21 +35,15 @@ const ReferralForm: React.FC<ReferralFormProps> = ({ onSuccess, onError }) => {
         email,
         phoneNumber,
     }: FormData) => {
-        try {
-            const {
-                data: { referral },
-            } = await createReferral({
+        dispatch(
+            createReferralAction({
                 givenName,
                 surname,
                 email,
                 phoneNumber,
-            });
-
-            reset();
-            onSuccess(referral);
-        } catch (error) {
-            onError();
-        }
+            })
+        );
+        reset();
     };
 
     return (

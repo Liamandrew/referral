@@ -91,6 +91,253 @@ exports[`<ReferralTable> should match the snapshot 1`] = `
             </button>
           </td>
         </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
+        <tr
+          class="MuiTableRow-root emptyTableRow"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          />
+        </tr>
       </tbody>
     </table>
   </div>

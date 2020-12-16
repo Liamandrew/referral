@@ -5,3 +5,5 @@ export interface Referral {
     phoneNumber: string;
     email: string;
 }
+
+export type ReferralRequest = Omit<Referral, "id">;

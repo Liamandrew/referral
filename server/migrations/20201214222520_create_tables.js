@@ -1,6 +1,6 @@
 const ADDRESSES_TABLE_NAME = "addresses";
-const REFERALLS_TABLE_NAME = "referrals";
-const REFERAL_ADDRESSES_TABLE_NAME = "referral_addresses";
+const REFERRALS_TABLE_NAME = "referrals";
+const REFERRAL_ADDRESSES_TABLE_NAME = "referral_addresses";
 
 exports.up = async (knex) => {
     const createAddressesTable = async () => {
@@ -20,10 +20,10 @@ exports.up = async (knex) => {
     };
 
     const createReferralsTable = async () => {
-        const hasTable = await knex.schema.hasTable(REFERALLS_TABLE_NAME);
+        const hasTable = await knex.schema.hasTable(REFERRALS_TABLE_NAME);
 
         if (!hasTable) {
-            await knex.schema.createTable(REFERALLS_TABLE_NAME, (table) => {
+            await knex.schema.createTable(REFERRALS_TABLE_NAME, (table) => {
                 table.increments("id").primary();
                 table.string("given_name").notNullable();
                 table.string("surname").notNullable();
@@ -35,19 +35,19 @@ exports.up = async (knex) => {
 
     const createReferralAddressTable = async () => {
         const hasTable = await knex.schema.hasTable(
-            REFERAL_ADDRESSES_TABLE_NAME
+            REFERRAL_ADDRESSES_TABLE_NAME
         );
 
         if (!hasTable) {
             await knex.schema.createTable(
-                REFERAL_ADDRESSES_TABLE_NAME,
+                REFERRAL_ADDRESSES_TABLE_NAME,
                 (table) => {
-                    table.integer("referal_id").notNullable();
+                    table.integer("referral_id").notNullable();
                     table.integer("address_id").notNullable();
 
-                    table.primary(["referal_id", "address_id"]);
+                    table.primary(["referral_id", "address_id"]);
                     table
-                        .foreign("referal_id")
+                        .foreign("referral_id")
                         .references("id")
                         .inTable("referrals");
                     table
@@ -67,7 +67,7 @@ exports.up = async (knex) => {
 exports.down = async (knex) => {
     const dropReferralAddressesTable = async () => {
         await knex.raw(
-            `DROP TABLE IF EXISTS ${REFERAL_ADDRESSES_TABLE_NAME} CASCADE`
+            `DROP TABLE IF EXISTS ${REFERRAL_ADDRESSES_TABLE_NAME} CASCADE`
         );
     };
 
@@ -76,7 +76,7 @@ exports.down = async (knex) => {
     };
 
     const dropReferralsTable = async () => {
-        await knex.raw(`DROP TABLE IF EXISTS ${REFERALLS_TABLE_NAME} CASCADE`);
+        await knex.raw(`DROP TABLE IF EXISTS ${REFERRALS_TABLE_NAME} CASCADE`);
     };
 
     await dropReferralAddressesTable();

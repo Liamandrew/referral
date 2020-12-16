@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from "axios";
-import { Referral } from "../types/referral";
+import { Referral, ReferralRequest } from "../types/referral";
 
 const SERVER_URL = "http://localhost:5000";
 
@@ -8,7 +8,7 @@ interface CreateReferralResponse {
 }
 
 export const createReferral = (
-    referral: Omit<Referral, "id">
+    referral: ReferralRequest
 ): Promise<AxiosResponse<CreateReferralResponse>> =>
     axios.post(`${SERVER_URL}/api/referrals`, {
         ...referral,
