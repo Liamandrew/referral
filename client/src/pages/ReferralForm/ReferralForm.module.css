@@ -1,0 +1,32 @@
+.frame {
+    margin: 56px 68px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 34px;
+    grid-row-gap: 28px;
+    padding: 28px 0;
+}
+
+.personalDetailsContainer {
+    composes: gridContainer;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.addressContainer {
+    composes: gridContainer;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.buttonContainer {
+    composes: gridContainer;
+    grid-template-rows: repeat(1, 1fr);
+}
+
+@media only screen and (max-width: 760px) {
+    .gridContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

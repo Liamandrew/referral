@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField> should match snapshot in default state 1`] = `
+<div>
+  <div>
+    <label
+      class="label"
+    >
+      label
+    </label>
+    <div
+      class="inputContainer"
+    >
+      <input
+        class="input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TextField> should match snapshot in default state 2`] = `
+<div>
+  <div>
+    <label
+      class="label"
+    >
+      label
+    </label>
+    <div
+      class="inputContainer"
+    >
+      <input
+        class="input"
+      />
+    </div>
+    <p
+      class="error"
+    >
+      there is an error
+    </p>
+  </div>
+</div>
+`;

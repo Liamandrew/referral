@@ -1,0 +1,24 @@
+.button {
+    text-transform: uppercase;
+    height: 68px;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: 4px 4px 4px #cdcdcd;
+    border-radius: 4px;
+}
+
+.primaryButton {
+    composes: button;
+    background-color: #00e576;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.secondaryButton {
+    composes: button;
+    background-color: white;
+    color: #868383;
+    font-weight: 900;
+    border: 1px solid #cdcdcd;
+}

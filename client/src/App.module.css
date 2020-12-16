@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formItem {
+    width: 46%;
+}
+
+.listItem {
+    width: 54%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .formItem {
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .listItem {
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.subHeading {
+    color: #868383;
+    text-transform: uppercase;
+    margin-block-end: unset;
+    margin-bottom: 16px;
+}
+
+.underline {
+    border-bottom: 1px solid #cdcdcd;
+}

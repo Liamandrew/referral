@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReferralTable> should match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiTableContainer-root container"
+  >
+    <table
+      class="MuiTable-root"
+    >
+      <thead
+        class="MuiTableHead-root"
+      >
+        <tr
+          class="MuiTableRow-root MuiTableRow-head"
+        >
+          <th
+            class="MuiTableCell-root tableHeadCell MuiTableCell-head"
+            scope="col"
+          >
+            Given Name
+          </th>
+          <th
+            class="MuiTableCell-root tableHeadCell MuiTableCell-head"
+            scope="col"
+          >
+            Surname
+          </th>
+          <th
+            class="MuiTableCell-root tableHeadCell MuiTableCell-head"
+            scope="col"
+          >
+            Email
+          </th>
+          <th
+            class="MuiTableCell-root tableHeadCell MuiTableCell-head"
+            scope="col"
+          >
+            Phone
+          </th>
+          <th
+            class="MuiTableCell-root tableHeadCell MuiTableCell-head"
+            scope="col"
+          >
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="MuiTableBody-root"
+      >
+        <tr
+          class="MuiTableRow-root"
+        >
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          >
+            givenName
+          </td>
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          >
+            surname
+          </td>
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          >
+            email
+          </td>
+          <td
+            class="MuiTableCell-root tableBodyCell MuiTableCell-body"
+          >
+            phoneNumber
+          </td>
+          <td
+            class="MuiTableCell-root actionBodyCell MuiTableCell-body"
+          >
+            <button
+              class="iconButton"
+            >
+              <svg>
+                create-24px.svg
+              </svg>
+            </button>
+            <button
+              class="iconButton"
+            >
+              <svg>
+                delete-24px.svg
+              </svg>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
